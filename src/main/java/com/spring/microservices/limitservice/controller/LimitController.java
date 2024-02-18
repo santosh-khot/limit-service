@@ -10,6 +10,6 @@ public class LimitController {
 
     @GetMapping
     public ResponseEntity<Limit> getUser() {
-        return ResponseEntity.ok(new Limit(3,999));
+        return ResponseEntity.ok(new Limit(5,999));
     }
 }
